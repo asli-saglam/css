@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türk Hava Yolları</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div style="height: 30px; background-color: #2b3947; " class="d-flex justify-content-end align-items-center">
+        <div class="mt-3">
+            
+            <ul>
+                <li class="px-1 border-start">
+                    <a href="#">Corporate Club</a>
+
+                </li>
+                <li class="px-1 border-start">
+                    <a href="#">Miles & Smiles</a>
+
+                </li>
+                <li class="px-1 border-start">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>Ara
+                    </a>
+
+                </li>
+                <li class="px-1 border-start" style="margin-right: 20px;">
+                    <a href="#"><i class="fa-solid fa-earth-americas"></i>TR -INT</a>
+
+                </li>
+            </ul>
+        </div>
+
+
+    </div> 
+    <header style="height: 60px; background-color: #232B38;" class="d-flex justify-content-between align-items-center">
+            <div>
+                <!-- resim olan div -->
+                <img src="THY-LOGO.png" height="40px" style="margin-left: 1.5rem;">
+            </div>
+    
+            <div class="mt-3">
+                <!-- linklerin olduğu div -->
+                <ul id="headerlileri">
+                    <li class="px-1"><a href="#">PLANLA & UÇ</a></li>
+                    <li class="px-1 border-start"><a href="#">SEYAHAT DENEYİMİ</a></li>
+                    <li class="px-1 border-start"><a href="#">KEŞFET</a></li>
+                    <li class="px-1 border-start"><a href="#">YARDIM</a></li>
+                    <li class="px-1 border-start"><a href="#">Üye Ol</a></li> 
+                    
+                    <button id="button" type="submit" style="margin-right: 1.5rem;">GİRİŞ YAP<i class="fa-solid fa-user"></i></button>
+
+                </ul>
+
+
+            </div>
+
+    </header>
+
+    <div style="background-image: url(https://cdn.turkishairlines.com/m/6761929144cccc1e/original/anasayfa-1400.webp); height: 420px; background-repeat: no-repeat; background-size: cover;">
+        <div style="display: inline-block; position: relative; top: 7rem; left: 15rem;">
+            <h3 style="color: aliceblue;">Merhaba,</h3>
+            <h2 style="color: aliceblue;">Nereyi keşfetmek İstersiniz?</h2>
+        </div>
+        <img src="passenger-rights.avif" style="height: 250px; display: inline; position: relative; top: 0rem; left: 55rem;">
+    
+
+    <div class="border border-white px-3" style="width: 60rem; margin-left: 20rem; margin-top: 6rem; background-color: white;">
+        <ul>
+            <li><button type="button" class="btn btn-secondary mb-2" style="color: red; background-color: #FFFFFF;"><i class="fa-solid fa-plane"></i> Uçak</button></li>
+            <li ><button type="button" class="btn btn-secondary mb-2" style="background-color: #FFFFFF; color: #2b3947;" ><i class="fa-solid fa-suitcase-rolling"></i>Tatil Paketi</button></li>
+            <li><button type="button" class="btn btn-secondary mb-2" style="background-color: #FFFFFF; color: #2b3947;"><i class="fa-solid fa-ticket"></i> Check-in/ Bilet Yönetimi</button></li>
+            <li><button type="button" class="btn btn-secondary mb-2" style="background-color: #FFFFFF; color: #2b3947;"><i class="fa-solid fa-plane"></i> Uçuş Durumu</button></li>
+        </ul>
+        <div>
+            <div class="d-flex justify-content-between ">
+                <div class="d-flex flex-direction-row">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Gidiş-Dönüş
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Tek yön
+                        </label>
+                    </div>
+                    <div class="form-check" >
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                        Çoklu Uçuş
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" style="color: black;"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ödül Bilet- Millerinizle Bilet Alın</a>
+    
+                </div>
+    
+            </div>
+            <div class="mt-3">
+                <input type="text" placeholder="İstanbul" style="height: 3.5rem; background-color: #F4F6F8;"> 
+                <i class="fa-solid fa-arrows-spin"></i>
+                <input type="text" placeholder="Nereye" style="height: 3.5rem; background-color: #F4F6F8;">
+                <input type="date" style="height: 3.5rem; background-color: #F4F6F8;">
+                <input type="text" placeholder="1 Yolcu" style="height: 3.5rem; background-color: #F4F6F8;">
+                <button type="button" class="btn btn-danger" style="height: 3.5rem;">Uçuş Ara <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+        </div>
+        
+        <div class="mt-2">
+            <a href="#" style="color: black;" class="mb-3">Önceki aramalarım</a>
+        </div>
+    </div>
+
+    <div class="container mt-4" style="width: 60rem; margin-left: 19.3rem;">
+        <a href="#">
+            <div class="box d-flex align-items-center" style="color: #101A2A;">
+                <img src="https://www.turkishairlines.com/theme/img/icons/koltuk-new.svg" class="mb-3">
+                <span class="mt-5">Koltuk Seçimi</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box d-flex align-items-center" style="color: #101A2A;">
+                <img src="https://www.turkishairlines.com/theme/img/icons/bagaj-new.svg" class="mb-3">
+                <span class="mt-5">Ekstra Bagaj</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box d-flex align-items-center" style="color: #101A2A;">
+                <img src="https://www.turkishairlines.com/theme/img/icons/otel-new.svg" class="mb-3">
+                <span class="mt-5">Otel Rezervasyonu</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box d-flex align-items-center" style="color: #101A2A;">
+                <img src="https://www.turkishairlines.com/theme/img/icons/arac-new.svg" class="mb-3">
+                <span class="mt-5">Araç Kiralama</span>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="box d-flex align-items-center" style="color: #101A2A;">
+                <img src="https://www.turkishairlines.com/theme/img/icons/travelinsurance-new.svg"class="mb-3">
+                <span class="mt-5">Seyehat Sigortası</span>
+            </div>
+        </a>
+        
+        <a href="#">
+            <div class="box d-flex align-items-center" style="color: #101A2A;">
+                <img src="https://www.turkishairlines.com/theme/img/icons/giftcard-new.svg" class="mb-3">
+                <span class="mt-5">Gift Kart</span>
+            </div>
+        </a> 
+    </div>
+    <div class="d-flex flex-direction-row" style="margin-left: 19.3rem; margin-top: 2rem;">
+        <div class="card mx-2 border-end" style="width: 481.2px">
+            
+            <h5 class="card-title" style="font-family: MuseoSans-500; font-weight: 500;
+            line-height: 1.2; ">Turkish Airlines Holidays ile 8 kata kadar ekstra Mil!</h5>
+            <img src="https://cdn.turkishairlines.com/m/d92f66e57ba4691/original/Holidays-2li.webp" class="card-img-top" style="height:240.6 ; width: 477.2px;">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 13px;">Turkish Airlines Holidays ile hayalinizdeki tatil 8 kat daha avantajlı! Üstelik 30 güne kadar koşulsuz iptal ve taksitli ödeme seçenekleri Turkish Airlines Holidays’de.</p>
+              <a href="#" class="btn btn-danger">Keşfet</a>
+            </div>
+          </div>
+
+
+          <div class="card mx-2 border-end" style="width: 481.2px">
+            <h5 class="card-title " style="font-family: MuseoSans-500; font-weight: 500;
+            line-height: 1.2; ">İstanbul'da Stopover: En keyifli sürpriz!</h5>
+            <img src="https://cdn.turkishairlines.com/m/6567c2abf22cf697/original/Stopover.webp" class="card-img-top" style="height:240.6 ; width: 477.2px;">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 13px;">İstanbul Havalimanı'ndan aktarmalı seyahat eden yolcularımız için hazırladığımız İstanbul'da Stopover programı, anlaşmalı otellerimizde ücretsiz konaklama ve şehri keşfetme fırsatı sunuyor.</p>
+              <a href="#" class="btn btn-danger">Keşfet</a>
+            </div>
+          </div>
+    </div>
+
+    <div style="margin-left: 20rem;">
+        <span style="font-size: 30px; font-family: MuseoSans-100"><a href="#" style="color: red;">İstanbul</a> çıkışlı en iyi promosyonlar</span>
+    </div>
+
+    <div style="background-image: url(https://cdn.turkishairlines.com/m/655ff1044a0574ce/original/Turkish-Airlines-Detroit-Flights.jpg); background-repeat: no-repeat;
+    margin-left: 20rem; width: 60rem; height: 35rem; background-size: cover;"> 
+        <div style="color: #FFFFFF; display: inline-block; position: relative; top: 23rem; left: 2rem;">
+            <h1>Detroit</h1>
+            <h4>Başlangıç Fiyatı: 699 USD</h4>
+            <h6>Economy Class</h6>
+            <button type="button" class="btn btn-danger" style="width: 10rem;" >Rezervasyon yap</button>
+        </div>
+    </div>
+
+    <div class="mx-auto p-5" style="width: 40rem;">
+        <h1 style="font-family: MuseoSans-100">Özel fırsatlarla yeni şehirlere!</h1>
+        <h6><a href="#"  style="color: rgb(206, 6, 6); padding-left: 10rem;" >Tüm kampanyaları göster >></a></h6>
+    </div>
+
+    <hr>
+
+    <div class="d-flex justify-content-around">
+        <i class="fa-regular fa-circle-left fa-4x" style="margin-left: 5rem; margin-top: 14rem; color: #DAE0E8"></i>
+        <div class="d-flex justify-content-around">
+            <div class="card m-5" style="width: 18rem;">
+                <img src="https://cdn.turkishairlines.com/m/e798eba8bb3f8eb/original/TR-detroit-270x150.webp" class="card-img-top" >
+                <div class="card-body">
+                  <h6 class="card-title">Detroit uçuşlarımız başlıyor!</h6>
+                  <p class="card-text" style="font-size: small;">15 Kasım 2023’te başlayacak olan Detroit uçuşlarımızla yeni keşiflerin tadını özel fırsatlarla ve Türk Hava Yolları ayrıcalığıyla çıkarın!</p>
+                  <a href="#" style="color: red; margin-left: 4rem; font-size: 14px;">Bilet Al >> </a>
+                </div>
+            </div>
+            <div class="card m-5" style="width: 18rem;">
+                <img src="https://cdn.turkishairlines.com/m/6a7c6ef2e6181326/original/270x150-avis-budget.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Araç kiralama hizmeti ekleyin & Ekstra Mil kazanın</h6>
+                  <p class="card-text" style="font-size: small;">Avis veya Budget araç rezervasyonunuzu online kanallarımız aracılığıyla oluşturun, 500+ bonus Mil ve %30'a varan indirim ayrıcalığı kazanın.</p>
+                  <a href="#" style="color: red; margin-left: 4rem; font-size: 14px;">Araç Kiralama >> </a>
+                </div>
+            </div>
+            <div class="card m-5" style="width: 18rem;">
+                <img src="https://cdn.turkishairlines.com/m/4be9574b9e3b64d3/original/M-S_image.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Hayatta her an Miles&Smiles ile yeni bir heyecan</h6>
+                  <p class="card-text" style="font-size: small;">Siz de dünyayı, Türk Hava Yolları yolcu programı Miles&Smiles ile keşfedin.</p>
+                  <a href="#" style="color: red; margin-left: 4rem; font-size: 14px;">Detaylı Bilgi >></a>
+                </div>
+            </div>
+        </div>
+        <i class="fa-regular fa-circle-right fa-4x" style="margin-right: 5rem; margin-top: 14rem; color: #DAE0E8"></i>
+    </div>
+    <hr>
+    <div  class="d-flex " style="margin-left: 15rem;">
+        <div class="m-3">
+            <img src="https://cdn.turkishairlines.com/m/54deaaa16552ddf1/original/01-1.png" alt="">
+            <span style="font-size: 11px;"> WORLD CLASS AIRLINE</span>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.turkishairlines.com/m/2a88f72d6aa16dbc/original/02-1.png" alt="">
+            <span style="font-size: 11px;"> FIVE STAR GLOBAL AIRLINE</span>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.turkishairlines.com/m/748afa20623a4476/original/03-1.png" alt="">
+            <span style="font-size: 11px;"> BEST AIRLINE IN EUROPE</span>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.turkishairlines.com/m/f2ac91d6b77e22c/original/04-1.png" alt="">
+            <span style="font-size: 11px;" > WORLD'S BEST BUSINESS CLASS CATERING</span>
+        </div>
+    </div>
+    <hr>
+
+    <div class="d-flex justify-content-evenly m-3">
+        <img src="https://cdn.turkishairlines.com/m/3410c74a8a1008a5/original/Turkish-Airlines-Star-Alliance.jpg" alt="">
+        <img src="https://cdn.turkishairlines.com/m/21ccde567da99a75/original/Champions-League-Logo.png" alt="">
+        <img src="https://cdn.turkishairlines.com/m/46cee618452c651d/original/Euroleague-logo.png" alt="">
+    </div>
+
+    <div style="background-color: #232B38; height: 3rem;">
+        <ul class="d-flex justify-content-center">
+            <li>
+                <a href="#"><i class="fab fa-twitter fa-2x m-2" style="opacity: 0.9;"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-facebook fa-2x m-2" style="opacity: 0.9;"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-instagram fa-2x m-2" style="opacity: 0.9;"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-youtube fa-2x m-2" style="opacity: 0.9;"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-linkedin fa-2x m-2" style="opacity: 0.9;"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-tiktok fa-2x m-2" style="opacity: 0.9;"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+    
+
+</div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asli Saglam</title>
+    <meta name = "keywords" content= "java, python, JS"/>
+    <meta name = "description" content= "This is my website"/>
+    <meta name = "author" content= "Asli Saglam"/>
+
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media ="(max-width:768px)" href="tablet.css">
+    <link rel="stylesheet" media ="(max-width:500px)" href="mobile.css">
+
+
+</head>
+<body>
+    <header class="dark-blue">
+        <div class="contanier">
+        <nav id="navbar">
+            <h1 class="heading-small">Aslı Sağlam</h1>
+
+            <ul>
+                <li><a href="#Home">Anasayfa</a></li>
+                <li><a href="#train">Eğitimler</a></li>
+                <li><a href="#course">Kurslar</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <section id="Home">
+        <img src="resim2.jpg" height="170px" width="200px" alt="">
+
+        <div class="name text" >
+        <h2 class="heading-big">Asli Sağlam</h2>
+        <p>Computer Engineer</p>
+        </div>
+        <a href="#course">Kurslar'a git</a>
+    </section>
+
+    <section id = "train" class="dark-blue ">
+        <h3 class="text heading-medium">Eğitimler</h3>
+
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, vitae!
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Yüzyüze</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, repellat.</p>
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, suscipit!</p>
+            </article>
+        </div>
+
+    </section>
+
+    <section id="course" >
+        <h3 class="text heading-medium">Kurslar</h3>
+
+        <div class="container">
+            <div class="courses">
+                <!--course1-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="java.png" alt="">
+                        <span>%40 indirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Java | Sıfırdan İleri Programlama
+                        </div>
+
+                        <div class="instructor">Aslı Sağlam</div>
+                        <div class="rating">4.6</div>
+                    </div>
+                </div>
+                <!--course2-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="ruby2.jpeg" alt="">
+                        <span>%50 indirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Ruby | Sıfırdan İleri Programlama
+                        </div>
+
+                        <div class="instructor">Aslı Sağlam</div>
+                        <div class="rating">3.8</div>
+                    </div>
+                </div>
+                <!--course3-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="python.png" alt="">
+                        <span>%60 indirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Python | Sıfırdan İleri Programlama
+                        </div>
+
+                        <div class="instructor">Aslı Sağlam</div>
+                        <div class="rating">4.1</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id = "contact" class="dark-blue">
+        <div  class="contact-form">
+            <form>
+                <h4 class="text heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input
+                    class="form-control"
+                    type="text" 
+                    name="name"
+                    id="name"
+                    placeholder="İsim Giriniz.."
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                    class="form-control"
+                    type="text" 
+                    name="email"
+                    id="email"
+                    placeholder="Email Giriniz.."
+                    />
+
+
+                <div class="form-group">
+                    <label for="messeage">Mesaj</label>
+                    <textarea
+                    class="form-control"
+                    type="text" 
+                    name="messeage"
+                    id="messeage"
+                    rows ="5"
+                    placeholder="Mesajınız.."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

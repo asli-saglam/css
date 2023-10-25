@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,thead,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;/*tablo çizgilerini birleştirir.*/
+
+        }
+
+        table{
+            width: 50%;
+            margin: auto;
+            font-size: 1.5em;
+        }
+
+        thead tr{
+            background-color: green;
+            color: aliceblue;
+        }
+
+        tbody tr{
+            text-align: center;
+        }
+        th, td{
+            padding: 10px;
+        }
+        tbody tr:nth-child(even){
+            background-color: rgb(168, 142, 142);
+        }
+
+        tbody tr:hover{
+            background-color: rgb(55, 63, 60);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>salary</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Asli</td>
+            <td>Frontend</td>
+            <td>6000</td>
+        </tr>
+
+        <tr>
+            <td>onur</td>
+            <td>Backend</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Duygu</td>
+            <td>Game</td>
+            <td>4000</td>
+        </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

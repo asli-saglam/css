@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*contanier özellikleri*/
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 75%;
+            height:600px ;
+            margin:0 auto; /*sayfayı tam ortalaması için*/
+            display: flex; /*tabloları yan yana sıralar*/
+            flex-direction: row; /*satır olarak dizer tabloyu*/
+            background: rebeccapurple;
+            justify-content:flex-start; /*tablo dizimi seçenekleri*/
+          
+        }
+        .box{
+            text-align: center;
+            background: #ff2;
+            width: 150px;
+            border: 1px solid black ;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="box">
+            <h1>Baslik1</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Baslik2</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <h1>Baslik3</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+</html>

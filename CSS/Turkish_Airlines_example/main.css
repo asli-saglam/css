@@ -1,0 +1,41 @@
+ul li a{
+    font-size: 0.7rem;
+}
+
+
+#headerlileri li a{
+    font-size: 13px;
+    font-family: MuseoSans-900,sans-serif;
+    font-weight: 900;
+}
+#headerlileri li a:hover{
+    background-color: #212529
+}
+#button{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 16px;
+    background-color: #232B38;
+}
+.form-check{
+    padding-right: 1rem;
+}
+input{
+    border: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container a .box{
+    font-size: 15px;
+    color: #232B38;
+    border:0.5px solid #DAE0E8;
+    height: 5rem;
+    width: 10rem;
+    
+}
+.container a .box span:hover{
+    color: red;
+}
+
